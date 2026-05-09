@@ -1,9 +1,199 @@
+# contact.html
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Contact Us</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f8f3eb;
+            animation:fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity:0;
+                transform:translateY(20px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0px);
+            }
+        }
+
+        @keyframes float{
+            0%{
+                transform:translateY(0px);
+            }
+            50%{
+                transform:translateY(-12px);
+            }
+            100%{
+                transform:translateY(0px);
+            }
+        }
+
+        @keyframes zoomIn{
+            from{
+                transform:scale(0.8);
+                opacity:0;
+            }
+            to{
+                transform:scale(1);
+                opacity:1;
+            }
+        }
+
+        .contact-header{
+            background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('Best-Fast-Food-Suggestions-for-Visitors-in-Islamabad.webp');
+            background-size:cover;
+            background-position:center;
+            height:60vh;
+            color:white;
+        }
+
+        .navbar{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:25px 80px;
+        }
+
+        .logo{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+
+        .logo i{
+            font-size:35px;
+            color:yellow;
+        }
+
+        .nav-links ul{
+            display:flex;
+            gap:40px;
+            list-style:none;
+        }
+
+        .nav-links ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:20px;
+            transition:0.3s ease-in-out;
+        }
+
+        .nav-links ul li a:hover{
+            color:yellow;
+        }
+
+        .contact-text{
+            text-align:center;
+            margin-top:100px;
+        }
+
+        .contact-text h1{
+            animation:zoomIn 1.2s ease;
+            font-size:80px;
+            color:yellow;
+        }
+
+        .contact-section{
+            padding:100px 80px;
+            display:flex;
+            justify-content:space-between;
+            gap:50px;
+        }
+
+        .contact-left{
+            width:45%;
+        }
+
+        .contact-left h1{
+            font-size:55px;
+            color:#3d2514;
+            margin-bottom:20px;
+        }
+
+        .contact-left p{
+            font-size:20px;
+            line-height:35px;
+            color:#555;
+            margin-bottom:30px;
+        }
+
+        .info{
+            margin-bottom:25px;
+        }
+
+        .info i{
+            color:#bf2222;
+            font-size:25px;
+            margin-right:15px;
+        }
+
+        .info span{
+            font-size:20px;
+            color:#333;
+        }
+
+        .contact-right{
+            animation:zoomIn 1s ease;
+            width:50%;
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 5px 25px rgba(0,0,0,0.2);
+        }
+
+        .contact-right input,
+        .contact-right textarea{
+            width:100%;
+            padding:18px;
+            margin-bottom:20px;
+            border:none;
+            background:#f1f1f1;
+            border-radius:10px;
+            font-size:18px;
+        }
+
+        .contact-right button{
+            width:100%;
+            padding:18px;
+            border:none;
+            background:#bf2222;
+            color:white;
+            font-size:20px;
+            border-radius:10px;
+            cursor:pointer;
+            transition:0.3s ease-in-out;
+        }
+
+        .contact-right button:hover{
+            transform:scale(1.05);
+            background:#ff9800;
+        }
+
+        .footer{
+            background:#3d2514;
+            color:white;
+            text-align:center;
+            padding:30px;
+            margin-top:50px;
+        }
+    </style>
 </head>
 <body>
 
@@ -71,3 +261,4 @@
 
 </body>
 </html>
+```
