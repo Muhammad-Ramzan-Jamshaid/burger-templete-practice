@@ -69,4 +69,195 @@
             display:flex;
             justify-content:space-between;
             align-items:center;
-</body></html>
+            padding:25px 80px;
+        }
+
+        .logo{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+
+        .logo i{
+            font-size:35px;
+            color:yellow;
+        }
+
+        .nav-links ul{
+            display:flex;
+            gap:40px;
+            list-style:none;
+        }
+
+        .nav-links ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:20px;
+            transition:0.3s ease-in-out;
+        }
+
+        .nav-links ul li a:hover{
+            color:yellow;
+        }
+
+        .about-text{
+            text-align:center;
+            margin-top:100px;
+        }
+
+        .about-text h1{
+            animation:zoomIn 1.2s ease;
+            font-size:80px;
+            color:yellow;
+        }
+
+        .about-section{
+            padding:100px 80px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:50px;
+        }
+
+        .about-left{
+            width:50%;
+        }
+
+        .about-left h1{
+            font-size:55px;
+            color:#3d2514;
+            margin-bottom:20px;
+        }
+
+        .about-left p{
+            font-size:20px;
+            line-height:35px;
+            color:#555;
+        }
+
+        .about-right{
+            width:50%;
+        }
+
+        .about-right img{
+            animation:float 4s ease-in-out infinite;
+            width:100%;
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .about-cards{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            padding:50px 80px;
+        }
+
+        .card{
+            background:white;
+            padding:40px;
+            width:300px;
+            text-align:center;
+            border-radius:20px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.2);
+            transition:0.4s;
+        }
+
+        .card{
+            animation:zoomIn 1s ease;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card i{
+            font-size:50px;
+            color:#bf2222;
+            margin-bottom:20px;
+        }
+
+        .card h2{
+            margin-bottom:15px;
+            color:#3d2514;
+        }
+
+        .footer{
+            background:#3d2514;
+            color:white;
+            text-align:center;
+            padding:30px;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="about-header">
+        <div class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-burger"></i>
+                <h1>BURGER HOUSE</h1>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about-text">
+            <h1>ABOUT US</h1>
+            <p>Best Burgers With Amazing Taste</p>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <div class="about-left">
+            <h1>WELCOME TO BURGER HOUSE</h1>
+            <p>
+                Burger House is one of the best burger restaurants providing delicious burgers with premium quality ingredients. Our goal is to deliver fresh food, fast service, and unforgettable taste.
+                
+                We use fresh vegetables, quality meat, and special sauces to make every burger perfect for our customers.
+            </p>
+        </div>
+
+        <div class="about-right">
+            <img src="tandori burger.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="about-cards">
+        <div class="card">
+            <i class="fa-solid fa-burger"></i>
+            <h2>Fresh Burgers</h2>
+            <p>Made with fresh ingredients and special recipes.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-truck"></i>
+            <h2>Fast Delivery</h2>
+            <p>Quick delivery service at your doorstep.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-star"></i>
+            <h2>Best Quality</h2>
+            <p>Providing top quality taste for burger lovers.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>© 2026 Burger House | All Rights Reserved</h2>
+    </div>
+
+</body>
+</html>
+```
+
+---
+
+
